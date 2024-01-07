@@ -1,0 +1,62 @@
+.wrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 722px;
+    width: 45px;
+    color: #b7b7b7;
+}
+
+.contentWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.iconWrapper{
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.iconWrapper :hover{
+    color: #3e2edf;
+
+}
+.bottomIcon{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:600px) {
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        
+    }
+    .contentWrapper{
+        
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        z-index: 1;
+        position: absolute;
+        bottom: 0px;
+
+    }
+
+    .bottomIcon{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    
+    }
+
+}
