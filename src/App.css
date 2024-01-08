@@ -1,3 +1,4 @@
+
 .App {
   /* width: 100%; */
 }
@@ -61,8 +62,10 @@
   }
   .navWrapper .firstSetIcon {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
+    
     gap: 80px;
   }
   .navWrapper .SecondSetIcon {
@@ -81,27 +84,171 @@
   }
 }
 
-/* ------------------------------------------------------------Navbar css Ends here---------------------------------------------- */
+
 .wrapper1 {
+  /* --------------------------------------------------Responsive Section 1-------------------------------------------------- */
   /* margin-top: 80px; */
   height: 742px;
   width: 30%;
   background-color: #fafafa;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
+.sectionWrapper1{
+  height: 630px;
+  width: 60%;
+}
+
+.articleWrapper{
+  margin-left: 10px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1Btn{
+  height: inherit;
+  width: 150px;
+  background-color: #3e2edf !important;
+  border-radius: 10px !important;
+}
+
+@media screen and (max-width:600px){
+  .section1Text{
+    display: flex;
+  }
+
+  .section1Text1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 25px;
+  }
+
+  .section1Text2{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
 .wrapper2 {
+  /* --------------------------------------------------Responsive Section 2-------------------------------------------------- */
   /* margin-top: 80px; */
   background-color: cadetblue;
   height: 742px;
-  width: 40%;
+  width: 70%;
+
+}
+.section2Wrapper1{
+/* background-color: yellow; */
+height: 630px;
+width: 90%;
+margin-top: 55px;
+margin-left: 20px;
+display: flex;
+flex-direction: column;
 }
 
-.wrapper3 {
-  /* margin-top: 80px; */
-  height: 742px;
-  width: 30%;
-  background-color: aquamarine;
+.section2Title2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+.title2Textcontent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.container1{
+  width : 25px;
+  height: 50px;
+  background: linear-gradient(to top , #0800a3 25% , #4935ff 50%, #85afff 100%);
+  display: flex;
+  align-items: flex-end;
+  margin-top: 150px;
+}
+
+.container2{
+  width : 25px;
+  height: 75px;
+  background: linear-gradient(to top , #0800a3 25% , #4935ff 50%, #85afff 100%);
+  display: flex;
+  align-items: flex-end;
+  margin-top: 125px;
+}
+
+.container3{
+  width : 25px;
+  height: 100px;
+  background: linear-gradient(to top , #0800a3 25% , #4935ff 50%, #85afff 100%);
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+
+.container4{
+  width : 25px;
+  height: 125px;
+  background: linear-gradient(to top , #0800a3 25% , #4935ff 50%, #85afff 100%);
+  display: flex;
+  align-items: flex-end;
+  margin-top: 75px;
+}
+
+.container5{
+  width : 25px;
+  height: 170px;
+  background: linear-gradient(to top , #0800a3 25% , #4935ff 50%, #85afff 100%);
+  display: flex;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.section2Bottom{
+  display: flex;
+}
+
+.section2BottomWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.section2MainText{
+
+  font-size:20px;
+     font-weight:500;
+
+}
+
+.section2LeftSide{
+  
+}
+@media screen and (max-width: 826px) {
+  .section2Title2{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .title2Textcontent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+
+  .section2BottomWrapper{
+   
+    display: none;
+  
+  }
+}
+
+.section2Wrapper2{
+    /* --------------------------------------------------Responsive Section 3-------------------------------------------------- */
+  background-color: yellowgreen;
+  height: 742px;
+    width: 100%;
+  }
+  
